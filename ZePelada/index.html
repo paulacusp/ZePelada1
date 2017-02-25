@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title> Zé Pelada </title>
+    	<meta name="description" content=" Somos mais que um time!.">
+    	<meta name="keywords" content="Futebol Amador">
+    	<meta name="robots" content="index, follow">
+    	<meta name="author" content="Paula Santos">
+    	<link rel="stylesheet" href="css/style.css">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    	<link rel="icon" href="img/icon.jpg">
+    </head>
+    <body>
+        <!-- CABEÇALHO --> 
+        <header class="cabecalho container">
+           <a href="index.html"><h1 class="logo">Zé Pelada</h1></a>
+           <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+           <nav class="menu">
+               <a class="btn-close"><i class="fa fa-times"></i></a>
+               <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">Jogadores</a></li>
+                   <li><a href="#">Times</a></li>
+                   <li><a href="#">Forum</a></li>
+                   <li><a href="#">Quem somos</a></li>
+                   <li><a href="#">Contato</a></li>
+               </ul>
+           </nav>          
+        </header>
+        <!-- BANNER --> 
+        <div class="banner container">
+            <div class="title">
+                <h2> Os Melhores Times! </h2>
+                <h3> De amadores a profissionais, o nosso trabalho é reunir todos para jogar uma famosa "Pelada".</h3>
+            </div>
+            <div class="buttons">
+                <button class="btn btn-cadastrar bg-white radius"> Cadastrar <i class="fa fa-arrow-circle-right"></i></button>
+                <button class="btn btn-sobre bg-black radius"> Sobre <i class="fa fa-question-circle"></i></button>
+            </div>
+        </div>
+        <!-- SERVICOS --> 
+        <main class="servicos container">
+            <article class="servico bg-white radius">
+               <a href="#"><img src="img/criacoes.jpg" alt="Campeonatos Amadores"></a>
+               <div class="inner">
+                   <a href="#"> Campeonatos de Amadores </a>
+                   <h4>Times e Regiões </h4>
+                   <p>Se você quer saber os campeanatos amadores que estão ocorrendo em sua regiões, acesse, diariamente atualizamos os campeonatos regionais de amadores. </p>
+               </div>
+            </article>
+            <article class="servico bg-white radius">
+               <a href="#"><img src="img/md.jpg" alt="Futebol Feminino, Masculino, Misto"></a>
+               <div class="inner">
+                   <a href="#"> Futebol Feminino, Masculino, Misto </a>
+                   <h4>Administração de Jogos e Jogadores</h4>
+                   <p>Aqui você poderá escolher a posição que você joga, e além disso, escolher por genêro ou se preferir também aceitamos times mistos! </p>
+               </div>
+            </article>
+            <article class="servico bg-white radius">
+               <a href="#"><img src="img/cs.jpg" alt="Criação de Times"></a>
+               <div class="inner">
+                   <a href="#"> Criação de Times </a>
+                   <h4> Times Administráveis </h4>
+                   <p>Agora você pode administrar seu time quando e como quiser.
+                   E melhor ainda o seu time estará sempre atualizado, com todos os detalhes ranking, número de gols, melhores jogadores entre outros. Acesse.</p>
+               </div>
+            </article>
+            
+            <div id="quemsomos" class="bgParallax" data-speed="15">
+    
+      
+        <!-- NEWSLETTER -->
+        <section class="newsletter container bg-black">
+           <h2> Inscreva-se agora! </h2>
+           <h3>  Receba novidades, dicas e muito mais </h3>
+           <form>
+              <input class="bg-black radius" type="email" name="email" placeholder="Seu email">
+              <button class="bg-white radius"> Cadastrar </button>
+           </form>
+        </section>
+        <!-- RODAPÉ -->
+        <footer class="rodape container bg-gradient">
+          <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+          </div>
+          <p class="copyright">
+            Copyright © Design Mobile - Disciplina 2016/7. Todos os direitos reservados.
+        </footer>       
+        
+        <!-- JQUERY --> 
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>
+        $(".btn-menu").click(function(){
+          $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+          $(".menu").hide();
+        });
+          
+        </script>      
+    </body>
+</html>
